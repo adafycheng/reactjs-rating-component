@@ -20,10 +20,18 @@ import 'reactjs-rating-component/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <RatingComponent />
+    return <>
+        <RatingComponent heading="C#" subheading="6 months" rate="2" starColor="purple" />
+        <RatingComponent heading="Java" subheading="11 years" rate="4" />
+        <RatingComponent heading="JavaScript" subheading="10 years" rate="4" headingColor='purple' subheadingColor='orange' starColor="green" />
+        <RatingComponent heading="Node.js" subheading="6 months" rate="3" starColor="purple" />
+        <RatingComponent heading="React" subheading="6 months" rate="2" starColor="purple" />
+    </>
   }
 }
 ```
+
+![Drag Racing](images/example.png)
 
 ## License
 
