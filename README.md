@@ -16,7 +16,6 @@ npm install --save reactjs-rating-component
 import React, { Component } from 'react'
 
 import RatingComponent from 'reactjs-rating-component'
-import 'reactjs-rating-component/dist/index.css'
 
 class Example extends Component {
   render() {

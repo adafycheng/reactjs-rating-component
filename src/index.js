@@ -21,7 +21,6 @@ let subheadingStyle = {
 }
 
 let starStyle = {
-//    color: 'green',
     fontSize: '1.5em',
     rowSpan: '2'
 }
@@ -31,13 +30,8 @@ const RatingComponent = ({ heading, subheading, rate, headingColor='black', subh
     headingStyle = {...headingStyle, color: headingColor};
     subheadingStyle = {...subheadingStyle, color: subheadingColor};
     starStyle = {...starStyle, color: starColor};
-    /*
-    if (starColor) {
-      starStyle = {...starStyle, color: starColor};
-    } else {
-      starStyle = {...starStyle, color: 'green'};
-    }
-    */
+
+    // Draw the stars
     for (var i=1; i<=5; i++) {
         if (rate >=i) {
             final.push(<span style={starStyle}>&#9733;</span>);

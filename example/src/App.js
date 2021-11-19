@@ -1,8 +1,6 @@
 import React from 'react'
 
 import RatingComponent from 'reactjs-rating-component'
-import 'reactjs-rating-component/dist/index.css'
-
 
 const App = () => {
   return <>
