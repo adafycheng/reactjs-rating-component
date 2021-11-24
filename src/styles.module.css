@@ -1,9 +1,9 @@
 .ratingTitle {
-    font-size: 2em;
+    font-size: 1em;
     font-weight: bold;
 }
 
 .greenStar {
-    font-size: 200%;
+    font-size: 100%;
     color: green;
 }

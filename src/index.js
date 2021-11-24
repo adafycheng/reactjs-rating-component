@@ -7,21 +7,21 @@ const containerStyle = {
 }
 
 const ratingStyle = {
-    width: '150px'
+    width: '120px'
 }
 
 let headingStyle = {
-    fontSize: '1.5em',
+    fontSize: '1em',
     fontWeight: 'bold',
-    width: '250px'
+    width: '180px'
 }
 
 let subheadingStyle = {
-    width: '250px'
+    width: '180px'
 }
 
 let starStyle = {
-    fontSize: '1.5em',
+    fontSize: '1em',
     rowSpan: '2'
 }
 
