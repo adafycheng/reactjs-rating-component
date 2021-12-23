@@ -19,12 +19,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+      - name: Auth snyk
+        run:
+          snyk auth
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/node@master
         # continue-on-error: true
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-
+        with:
+          command: monitor
+          
   build-and-publish:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
