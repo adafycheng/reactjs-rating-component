@@ -30,7 +30,7 @@ class Example extends Component {
 }
 ```
 
-![Drag Racing](images/example.png)
+![Example Image](images/example.png)
 
 ## License
 

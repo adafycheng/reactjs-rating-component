@@ -1,6 +1,6 @@
 {
   "name": "reactjs-rating-component",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A rating component built using React.js",
   "author": "adafycheng",
   "license": "MIT",
@@ -14,6 +14,7 @@
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "lint": "eslint 'src/**/*.js?(x)'",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
@@ -49,9 +50,5 @@
   },
   "files": [
     "dist"
-  ],
-  "dependencies": {
-    "reactjs-rating-component": "^1.0.1",
-    "yarn": "^1.22.10"
-  }
+  ]
 }
